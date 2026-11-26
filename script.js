@@ -42,10 +42,10 @@ productPhotos[12] = 'assets/windows-logos.svg';
 productPhotos[13] = 'assets/office-2021.svg';
 productPhotos[14] = 'assets/linux-tux.svg';
 productPhotos[15] = 'assets/software-suite.svg';
-productPhotos[16] = 'https://ctwtech.store/cdn/shop/files/Starlink-v4.fw_1200x.png?v=1734524891';
+productPhotos[16] = 'assets/starlink-roof-wifi.svg';
 productPhotos[17] = 'assets/router-access-point.svg';
 productPhotos[18] = 'assets/locked-door.svg';
-productPhotos[19] = 'assets/starlink-roof-wifi.svg';
+
 
 function renderSolutions() {
   const query = search.value.trim().toLocaleLowerCase('fr');
@@ -144,3 +144,4 @@ nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
   nav.classList.remove('open');
 }));
 renderSolutions();
+
